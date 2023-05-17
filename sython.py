@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5159123009,
+    5676384368,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@no1brosh"))
     except BaseException:
         pass
 
@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO SYTHON
+**☆ WELCOME TO CRYSTAL
 ☆ VERSION : 1.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE SYTHON : @SAYTHONH**
+☆ SOURCE CRYSTAL : @no1bros**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -114,7 +114,7 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5159123009
+ownerhson_id = 5676384368
 @sython.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -131,7 +131,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@zmmbot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@zmmbot', 'جاري التجميع بواسطة | 𝐂𝐑𝐘𝐒𝐓𝐀𝐋')
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('@zmmbot', '/start')
         await asyncio.sleep(5)
@@ -176,7 +176,7 @@ async def _(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_usernamee)
-        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@A_MAN9300BOT', 'جاري التجميع بواسطة | 𝐂𝐑𝐘𝐒𝐓𝐀𝐋')
         channel_entity = await sython.get_entity(bot_usernamee)
         await sython.send_message('@A_MAN9300BOT', '/start')
         await asyncio.sleep(5)
@@ -223,7 +223,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@SAYTHONH"))
+        await sython(JoinChannelRequest("@no1brosH"))
     except BaseException:
         pass
  
@@ -234,7 +234,7 @@ GCAST_BLACKLIST = [
 ]
 
 DEVS = [
-    5159123009,
+    5676384368,
 ]
 
 def calc(num1, num2, fun):
@@ -387,20 +387,20 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل | 𝐒𝐘𝐓𝐇𝐎𝐍
+      await event.reply("""السـورس يعمـل | 𝐂𝐑𝐘𝐒𝐓𝐀𝐋
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
-- المطور : حسام فوزي | SOMY
+- المطور : كرستال التكريتي | CRS
 
 - سورس بسيط يحتوي على الاوامر المهمة التي تحتاجها
 
-قناة السورس : https://t.me/SAYTHONH
+قناة السورس : https://t.me/no1brosH
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""SY OWNER : @T_4_Z"""
+      await event.reply("""SY OWNER : @ssxhh"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
