@@ -59,7 +59,7 @@ logging.basicConfig(
 
 
 DEVS = [
-    .5676384368,
+    5159123009,
 ]
 DEL_TIME_OUT = 60
 normzltext = "1234567890"
@@ -71,7 +71,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@no1bros"))
+        await sython(JoinChannelRequest("@saythonh"))
     except BaseException:
         pass
 
@@ -85,7 +85,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        name = f"𝐂𝐑𝐘𝐒𝐓𝐀𝐋  | {HM}"
+        name = f"𝘀𝘆𝘁𝗵𝗼𝗻 | {HM}"
         LOGS.info(name)
         try:
             await sython(
@@ -109,7 +109,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        bio = f"𝐂𝐑𝐘𝐒𝐓𝐀𝐋  |️ {HM}"
+        bio = f"𝘀𝘆𝘁𝗵𝗼𝗻 |️ {HM}"
         LOGS.info(bio)
         try:
             await sython(
@@ -206,7 +206,7 @@ async def _(event):
     await event.delete()
     pic = await rr9r7.download_media()
     await sython.send_file(
-        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : 𝐂𝐑𝐘𝐒𝐓𝐀𝐋 "
+        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : 𝘀𝘆𝘁𝗵𝗼𝗻"
     )
 
 
@@ -434,11 +434,11 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-♔ 𝐒𝐘𝐓𝐇𝐎𝐍 𝐂𝐑𝐘𝐒𝐓𝐀𝐋 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
+♔ 𝐬𝐲𝐭𝐡𝐨𝐧 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐒𝐘𝐓𝐇𝐎𝐍 𝐂𝐑𝐘𝐒𝐓𝐀𝐋
-❖╎𝐝𝐞𝐯𝐥𝐨 : ssxhh
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @no1bros
+❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐲𝐭𝐡𝐨𝐧
+❖╎𝐝𝐞𝐯𝐥𝐨 : hussam.fa
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @saythonh
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
@@ -543,7 +543,7 @@ async def _(event):
     photo = await sython.get_profile_photos(DEVS[0])
     await sython.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @ssxhh
+      - @T_4_Z
 ''', reply_to=event)
 
 
@@ -555,7 +555,7 @@ async def _(event):
     end = datetime.datetime.now()
     res = (end - start).microseconds / 1000
     await event.edit(f"""**-- -- -- -- -- -- -- -- -- --
-𝐂𝐑𝐘𝐒𝐓𝐀𝐋  - 
+𝘀𝘆𝘁𝗵𝗼𝗻 - 𝗵𝘂𝘀𝘀𝗮𝗺
 - البنك : `{res}`
 -- -- -- -- -- -- -- -- -- --**"""
                      )
@@ -584,21 +584,21 @@ async def update(event):
     await sython.disconnect()
     await sython.send_message("me", "**اكتملت اعادة تشغيل السورس**")
 c = requests.session()
-bot_username = '@zmmbot'
+bot_username = '@t06bot'
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليار"))
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@zmmbot', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('@t06bot', 'جاري التجميع بواسطة | SOMY TEAM')
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@zmmbot', '/start')
+        await sython.send_message('@t06bot', '/start')
         await asyncio.sleep(5)
-        msg0 = await sython.get_messages('@zmmbot', limit=1)
+        msg0 = await sython.get_messages('@t06bot', limit=1)
         await msg0[0].click(2)
         await asyncio.sleep(5)
-        msg1 = await sython.get_messages('@zmmbot', limit=1)
+        msg1 = await sython.get_messages('@t06bot', limit=1)
         await msg1[0].click(0)
 
         chs = 1
@@ -619,7 +619,7 @@ async def _(event):
                 except:
                     bott = url.split('/')[-1]
                     await sython(ImportChatInviteRequest(bott))
-                msg2 = await sython.get_messages('@zmmbot', limit=1)
+                msg2 = await sython.get_messages('@t06bot', limit=1)
                 await msg2[0].click(text='التالي')
                 chs += 1
                 
