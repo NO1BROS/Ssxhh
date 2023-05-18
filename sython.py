@@ -525,3 +525,30 @@ async def _(event):
 
 print("- sython Userbot Running ..")
 sython.run_until_disconnected()
+
+
+
+
+
+
+
+@sython.on(admin_cmd(pattern="طائره(?: |$)(.*)"))
+async def _(event):
+    "أمر الرسوم المتحركة"
+    event = await edit_or_reply(event, "انتظر الطائره...")
+    await event.edit("✈-------------")
+    await event.edit("-✈------------")
+    await event.edit("--✈-----------")
+    await event.edit("---✈----------")
+    await event.edit("----✈---------")
+    await event.edit("-----✈--------")
+    await event.edit("------✈-------")
+    await event.edit("-------✈------")
+    await event.edit("--------✈-----")
+    await event.edit("---------✈----")
+    await event.edit("----------✈---")
+    await event.edit("-----------✈--")
+    await event.edit("------------✈-")
+    await event.edit("-------------✈")
+    await asyncio.sleep(3)
+
